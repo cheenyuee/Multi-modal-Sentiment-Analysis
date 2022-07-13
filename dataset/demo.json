@@ -1,0 +1,50 @@
+[
+  {
+    "guid": "2366",
+    "text": "black MICHAEL KORS designer handbag shoulder bag hobo purse leather gold detail - Full rea\u00a1\u00ad ",
+    "label": "neutral",
+    "img": "./dataset/data/2366.jpg"
+  },
+  {
+    "guid": "3188",
+    "text": "@JordinSparks so I have the new single on repeat and you're so amazing any other opinion is invalid ???? #ProudSpeezy ",
+    "label": "positive",
+    "img": "./dataset/data/3188.jpg"
+  },
+  {
+    "guid": "722",
+    "text": "RT @TheGlobalGuide: Vibrant colours of Holi Festival in India. ",
+    "label": "positive",
+    "img": "./dataset/data/722.jpg"
+  },
+  {
+    "guid": "2938",
+    "text": "RT @DCoxAuthor: \"The characters are delightfully flawed... devilishly funny!\" #summerreading @LisetteBrodey ",
+    "label": "positive",
+    "img": "./dataset/data/2938.jpg"
+  },
+  {
+    "guid": "3811",
+    "text": "speedpaint will be up sometime ",
+    "label": "positive",
+    "img": "./dataset/data/3811.jpg"
+  },
+  {
+    "guid": "3738",
+    "text": "RT @msPartner: We\u00a1\u00afre thrilled you\u00a1\u00afre here for #WPC15! Make the most of your experience: #msPartner ",
+    "label": "positive",
+    "img": "./dataset/data/3738.jpg"
+  },
+  {
+    "guid": "962",
+    "text": "\u00a1\u00b0THE #legomovie \u00a1\u00b1 #DIRECTORS #MOCKED THE #Oscars ! ",
+    "label": "neutral",
+    "img": "./dataset/data/962.jpg"
+  },
+  {
+    "guid": "2730",
+    "text": "Aeropostale Driggs Slim Boot Cut Distressed Mens Boys Denim Blue Jeans sz 27x28 ",
+    "label": "neutral",
+    "img": "./dataset/data/2730.jpg"
+  }
+]
