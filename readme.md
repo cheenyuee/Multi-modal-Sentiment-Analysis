@@ -35,14 +35,14 @@ We select some important files for detailed description.
     |-- dev.json # the processed dev set
     |-- test.json # the processed test set
 |-- model/  # the implemented model
-    |-- Multimodal_model # the main part of this model
-    |-- utils # provide some useful functions
+    |-- Multimodal_model.py # the main part of this model
+    |-- utils.py # provide some useful functions
     |-- module/ # the sub-module of this model
     	|-- Img_module.py # the iamge module
     	|-- Text_module.py # the text module
 |-- main.py # the main code
 |-- split_dataset.py # the code for data processing
-|-- test_with label # the prediction result of test_without_label.txt
+|-- test_with_label.txt # the prediction result of test_without_label.txt
 |-- requirements.txt # dependencies
 |-- README.md
 ```
