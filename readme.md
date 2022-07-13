@@ -15,16 +15,17 @@ This implemetation is based on Python3. To run the code, you need the following 
 - chardet==4.0.0
 - Pillow==9.2.0
 
-You can simply run 
+You can simply run.
 
 ```shell
 pip install -r requirements.txt
 ```
 
-If your CUDA version is not compatible with the Torch， you can try this
+If your CUDA version is not compatible with the Torch， you can try this.
 
 ```shell
-pip3 install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall torch torchvision
+pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
 ## Repository structure
