@@ -50,7 +50,7 @@ def train(args, train_dataloader, dev_dataloader):
             best_accuracy = accuracy
             time_now_ = time.strftime('/%Y-%m-%d-%H-%M-%S-', time.localtime(time.time()))
             # 保存检查点
-            torch.save(model.state_dict(), args.checkpoints_dir + time_now_ + str(best_accuracy) + '-checkpoint.pth')
+            torch.save(model.state_dict(), args.checkpoints_dir + time_now_ + 'best' + '-checkpoint.pth')
     torch.save(model.state_dict(), args.checkpoints_dir + '/final_checkpoint.pth')
 
 

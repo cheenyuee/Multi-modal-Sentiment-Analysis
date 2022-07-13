@@ -78,7 +78,7 @@ Data statistic about the processed dataset for Multi-modal Sentiment Analysis is
 | ------- | -------- | ------- | -------- | ----- |
 | Test    | unknown  | unknown | unknown  | 511   |
 
-If you want to re-process and re-divide the Train set and Dev set, you can simply run:
+If you want to re-process and re-divide the Train set and Dev set, you can simply run ( I run this command on Windows. make sure your computer has encoding: ANSI):
 
 ```shell
 python split_dataset.py --train_file ./dataset/train.json --dev_file ./dataset/dev.json --test_file ./dataset/test.json --dev_size 0.1 --random_state 6

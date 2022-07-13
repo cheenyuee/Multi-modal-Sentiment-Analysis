@@ -80,10 +80,10 @@ class MultimodalModel(nn.Module):
         # multi_out = torch.cat((text_out, img_out), 1)
 
         # 融合策略2：使用多头自注意力
-        multi_out = self.fuse_strategy_attention(text_out, img_out)
+        # multi_out = self.fuse_strategy_attention(text_out, img_out)
 
         # 融合策略3：使用封装的transformer_encoder
-        # multi_out = self.fuse_strategy_transformer(text_out, img_out)
+        multi_out = self.fuse_strategy_transformer(text_out, img_out)
 
         # 分类器
         text_out = self.classifier_text(text_out)
