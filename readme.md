@@ -6,8 +6,8 @@ This is the official repository of DaSE 2022 Contemporary-Artificial-Intelligenc
 
 This implemetation is based on Python3. To run the code, you need the following dependencies:
 
-- torch==1.9.0+cu111
-- torchvision==0.10.0+cu111
+- torch==1.12.0
+- torchvision==0.13.0
 - transformers==4.19.2
 - sklearn==0.0
 - numpy==1.22.3
@@ -19,6 +19,12 @@ You can simply run
 
 ```shell
 pip install -r requirements.txt
+```
+
+If your CUDA version is not compatible with the Torch， you can try this
+
+```shell
+pip3 install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
 ## Repository structure
