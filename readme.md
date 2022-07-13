@@ -136,10 +136,15 @@ If you just want to try this model, you would better use the default arguments t
 
 The results are shown in this Table(**Accuracy**):
 
-| Fusion strategy           | Only Text | Only Image | Multi-modal | Ensemble |
+| Feature Fusion strategy   | Only Text | Only Image | Multi-modal | Ensemble |
 | ------------------------- | --------- | ---------- | ----------- | -------- |
-| Directly Concatenate      | 0.7000    | 0.6625     | 0.7300      | 0.7300   |
-| Transformer Encoder       | 0.7350    | 0.6400     | 0.7300      | 0.7250   |
-| Multi-head self-attention | 0.7100    | 0.6475     | 0.7475      | 0.7500   |
+| Directly Concatenate      | 0.6675    | 0.6850     | 0.7250      | 0.7300   |
+| Multi-head self-attention | 0.6150    | 0.6750     | 0.6675      | 0.6775   |
+| Transformer Encoder       | 0.7300    | 0.6375     | 0.7225      | 0.7200   |
 
 If you want to reproduce the experiment results, you can simply try (using the default arguments) and don't need modify any hyper-parameters.
+
+
+
+
+
