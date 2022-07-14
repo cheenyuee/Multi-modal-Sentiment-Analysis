@@ -144,7 +144,9 @@ The results are shown in this Table(**Accuracy**):
 
 If you want to reproduce the experiment results, you can simply try (using the default arguments) and don't need modify any hyper-parameters.
 
+## Reference
 
-
+- An Empirical Study of Training End-to-End Vision-and-Language Transformers.
+<img src="attention.png" alt="attention" style="zoom: 50%;" />
 
 
